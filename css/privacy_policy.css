@@ -1,0 +1,55 @@
+.privacy__policy-content {
+    padding-top: 100px;
+}
+
+.privacy__policy-content span {
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.privacy__policy-content  p {
+    margin-top: 10px;
+    color: gray;
+}
+
+.main__privacy-phone input{
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    outline: none;
+}
+
+.main__privacy-phone button {
+    margin-top: 20px;
+    background-color: black;
+    height: 50px;
+    color: #fff;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main__privacy-phone span {
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+
+.main__privacy-phone form {
+    margin-top: 10px;
+}
+
+.main__privacy-map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.map_phone {
+    margin-top: 50px;
+    border-bottom: 1px solid #eee;
+}

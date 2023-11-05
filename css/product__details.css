@@ -1,0 +1,199 @@
+.container__slider-list {
+    border: 2px solid #eee;
+    border-radius: 8px;
+}
+
+.product__details-list-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.mySlides {
+    max-width: 100%;
+    display: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.demo {
+    max-width: 100%;
+    border: 1px solid #eee;
+    padding: 5px;
+}
+
+.product__details-list-img .col {
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.product__details-list-img .demo {
+    width: 100%;
+    border: 2px solid #ddd;
+    cursor: pointer;
+}
+
+.product__details-list-img .demo:hover {
+    border-color: #999;
+}
+
+.product__details-list-img .demo.active {
+    border-color: #000;
+}
+
+/* product__container-main-content */
+.product__container-main-content {
+    padding: 0 20px;
+}
+
+.title-product {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px 0px 15px;
+    line-height: 1.2;
+}
+
+.price-box {
+    margin-bottom: 15px;
+}
+
+.special-price {
+    font-size: 30px;
+    font-weight: 500;
+    color: red;
+    display: block;
+}
+
+.old-price del {
+    color: #eee;
+}
+
+.introduce__text {
+    border-bottom: 1px solid #eee;
+}
+
+.introduce__text p {
+    font-size: 14px;
+    color: gray;
+}
+
+.quantity__product {
+    display: flex;
+    margin-top: 30px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.quantity input {
+    width: 50px;
+    text-align: center;
+}
+
+.quantity__product span {
+    font-weight: bold;
+}
+
+/* quantity__button */
+
+.quantity_main {
+    border-bottom: 1px solid #eee;
+}
+
+.quantity__button {
+    margin-top: 30px;
+}
+
+.btn_quantity {
+    background-color: red;
+    color: #ffff;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.btn_quantity span {
+    padding: 10px;
+}
+
+.btn_quantity-item {
+    background-color: #F6DEE1;
+    color: #ffff;
+    width: 100px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.btn_quantity:hover {
+    background-color: #F6DEE1;
+}
+
+.btn_quantity-item:hover {
+    background-color: red;
+    border: 1px solid #F6DEE1;
+}
+
+
+/* policy__benefits */
+
+.policy__benefits {
+    margin-top: 30px;
+}
+
+.policy__benefits p {
+    font-weight: bold;
+}
+
+.policy__benefits-list {
+    display: flex;
+    margin-top: 20px;
+}
+
+.policy__benefits-list div {
+    margin-right: 30px;
+}
+
+.policy__benefits-list div i {
+    color: red;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+/* policy__share */
+
+.policy__share {
+    display: flex;
+    margin-top: 30px;
+}
+
+.policy__share p {
+    font-weight: bold;
+}
+
+.policy__share-icon {
+    display: flex;
+    list-style: none;
+}
+
+.policy__share-icon li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+.policy__share-icon li a {
+    text-decoration: none;
+}
+
+.policy__share-icon li a i {
+    color: red;
+}
+
+.main__new-product {
+    border-bottom: 1px solid #eee;
+}
